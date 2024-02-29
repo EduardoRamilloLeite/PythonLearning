@@ -1,12 +1,16 @@
-# entrada = input('[E]ntrar [S]air')
-# print (entrada)
+entrada = input('[E]ntrar [S]air: ')
 
-# senha_digitada = input('Senha:')
-# senha_permitida = '123456'
+senha_digitada = input('Senha:')
+senha_permitida = '123456'
 
-# if entrada == 'E' and senha_digitada == senha_permitida:
-#     print('Entrar')
-# else:
-#     print('Sair')
+if (entrada == 'E' or entrada == 'e') and senha_digitada == senha_permitida:
+    print('Entrar')
+else:
+    print('Sair')
 
+senha = input('senha:' ) or 'Sem senha'
+
+print(senha)
+
+#avaliacao de curto circuito
 print (True and False and True)
