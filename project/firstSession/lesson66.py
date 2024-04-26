@@ -28,6 +28,7 @@ O segundo dígito do CPF é 0
 import re
 import sys
 
+
 # cpf_enviado_usuario = '746.824.890-70' \
 #     .replace('.', '') \ #('o que quer substituir', 'pelo que quer substituir')
 #     .replace(' ', '') \
