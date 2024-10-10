@@ -14,7 +14,7 @@ from PyPDF2 import PdfReader
 PASTA_RAIZ = Path(__file__).parent
 PASTA_ORIGINAIS = PASTA_RAIZ / r'C:\Users\eduar\OneDrive\Desktop\Codigos\PythonLearning\project\forthSection\lesson226\pdf\R20241004.pdf'
 PASTA_NOVA = PASTA_RAIZ / 'arquivos_novos'
-RELATORIO_BACEN = PASTA_ORIGINAIS / 'R20230210.pdf'
+RELATORIO_BACEN = PASTA_ORIGINAIS / 'R20241004.pdf'
 PASTA_NOVA.mkdir(exist_ok=True)
 
 reader = PdfReader(RELATORIO_BACEN)
